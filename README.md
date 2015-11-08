@@ -7,9 +7,13 @@ Specifications:
 - Graphics:
 - ATI Mobility Raedon 5650
 - Indel HD 1st gen (Device ID 0046 and Vendor ID as 8086)
-- Wifi:
-- Ethernet:
-- Sound:
+- Wifi: Qualcomm Atheros AR9285
+- Ethernet: Realtek PCIe GBE Family Controller
+- Sound: IDT 92HD81B1X @ Intel Ibex Peak PCH - High Definition Audio Controller [B-2]	PCI
+- Keyboard & multi-touch touchpad: 
+- Standard PS/2 keyboard 
+- Synaptics PS/2 Port TouchPad
+
 
 ### Fix USB error
 Using Clover Configurator, use kext patch feature, I applied the following patch:
