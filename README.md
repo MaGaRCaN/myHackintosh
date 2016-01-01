@@ -16,34 +16,28 @@ Specifications:
 
 
 ### Fix USB error
-Using Clover Configurator, use kext patch feature, I applied the following patch:
-Name: AppleUSBXHCIPCI
-Find: <83bd8cfeffff10>
-Replace: <83bd8cfeffff15>
-Comment: Change 15 port limit to 20 in AppleUSBXHCIPCI
-
-Copy USBInjectAll.kext in /EFI/CLOVER/kexts/10.11/
 
 ### Fix Graphics issues
-Remove AppleIntelHDGraphicsFB.kext from System/Library/Extensions ??????
-Patch Intel card in Clover and set fake id 0x01660003
+AppleIntelHDGraphicsFB has the Frame Buffer info copy old one
+Copy updated from http://www.insanelymac.com
 
 ### Boot flags
-cpus=1
-GraphicsEnabler=No
 
 ### Wifi
 
 ### Ethernet
 
 ### Sound
+Remove AppleHDA.kext
+Copy AppleHDA 2.kext
+Copy HDAEnabler.kext
 
 ### Keyboard & multi-touch touchpad
+Issues pressing buttons...
 
 ### Webcam
 
 ### Memory Card Reader
-
 
 ### Version
 0.1
