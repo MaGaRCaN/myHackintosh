@@ -18,8 +18,8 @@ Specifications:
 ### Fix USB error
 
 ### Fix Graphics issues
-AppleIntelHDGraphicsFB has the Frame Buffer info copy old one
-Copy updated from http://www.insanelymac.com
+- AppleIntelHDGraphicsFB has the Frame Buffer info copy old one
+- Copy updated from http://www.insanelymac.com
 
 ### Boot flags
 
@@ -28,9 +28,9 @@ Copy updated from http://www.insanelymac.com
 ### Ethernet
 
 ### Sound
-Remove AppleHDA.kext
-Copy AppleHDA 2.kext
-Copy HDAEnabler.kext
+- Remove AppleHDA.kext
+- Copy AppleHDA 2.kext
+- Copy HDAEnabler.kext
 
 ### Keyboard & multi-touch touchpad
 Issues pressing buttons...
