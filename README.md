@@ -15,30 +15,36 @@ Specifications:
 - Synaptics PS/2 Port TouchPad
 
 ### Fix CPU error
--XXX.kext
+-NullCPUPowerManagement.kext
 
 ### Fix USB error
--XXX.kext
+-USBInjectAll.kext
 
 ### Fix Graphics issues
-- AppleIntelHDGraphicsFB has the Frame Buffer info copy old one
-- Copy updated from http://www.insanelymac.com
+- AppleIntelHDGraphicsFB (copied to HD)
+- Natit.kext
 
 ### Boot flags
 
 ### Wifi
-*working*
+- AtherosE2200Ethernet.kext
+- AtherosWiFiInjector.kext
 
 ### Ethernet
-- Need to write any MAC
+- RealtekRTL8111.kext
+```
+sudo ifconfig en0 ether 00:a0:c5:ca:ae:c1
+```
 
 ### Sound
 - Remove AppleHDA.kext
 - Copy AppleHDA 2.kext
 - Copy HDAEnabler.kext
+*Repeat when update*
 
 ### Keyboard & multi-touch touchpad
-**Issues pressing buttons...**
+- AppleACPIPS2Nub.kext
+- ApplePS2Controller.kext
 
 ### Webcam
 *working*
@@ -47,4 +53,4 @@ Specifications:
 *working*
 
 ### Version
-0.2b
+0.3b
