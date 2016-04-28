@@ -15,10 +15,10 @@ Specifications:
 - Synaptics PS/2 Port TouchPad
 
 ### Fix CPU error
--NullCPUPowerManagement.kext
+- NullCPUPowerManagement.kext
 
 ### Fix USB error
--USBInjectAll.kext
+- USBInjectAll.kext
 
 ### Fix Graphics issues
 - AppleIntelHDGraphicsFB (copied to HD)
@@ -53,4 +53,4 @@ sudo ifconfig en0 ether 00:a0:c5:ca:ae:c1
 *working*
 
 ### Version
-0.3b
+0.3c
