@@ -40,7 +40,9 @@ sudo ifconfig en0 ether 00:a0:c5:ca:ae:c1
 - Remove AppleHDA.kext
 - Copy AppleHDA 2.kext
 - Copy HDAEnabler.kext
-*Repeat when update*
+```
+Repeat when update
+```
 
 ### Keyboard & multi-touch touchpad
 - AppleACPIPS2Nub.kext
